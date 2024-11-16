@@ -1,0 +1,157 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+/* Header */
+header {
+  background-color: #2a2a2a;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  padding-top: 80px;
+  background: #f7f7f7;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 20px;
+  transition: all 0.3s;
+}
+
+nav a:hover {
+  color: #ff6347;
+  transform: translateY(-5px);
+}
+
+/* Main Content */
+main {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+/* Popups */
+.popup-section {
+  display: none; /* Initially hidden */
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  max-width: 600px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  text-align: center;
+}
+
+.popup-content h2 {
+  margin-bottom: 20px;
+}
+
+.popup-content p {
+  margin-bottom: 20px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: #000;
+}
+
+/* Achievements Section */
+.achievement {
+  margin-bottom: 20px;
+}
+
+.achievement-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.achievement-text {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background: #2a2a2a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #0077b5;
+}
+
+footer p {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* Download CV Button */
+.download-cv {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  text-align: center;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.download-cv:hover {
+  background-color: #ff6347;
+  color: #fff;
+}
